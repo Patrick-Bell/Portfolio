@@ -4,7 +4,7 @@ let projects = [
         name: 'Cointology',
         image: '/images/cointology-mockup.png',
         techStack: ['HTML', 'CSS', 'JavaScript', 'NodeJS', 'ExpressJS', 'MongoDB', 'StripeAPI'],
-        description: 'Cointology is a full-stack e-commerce platform dedicated to the sales of coins, offering a seamless marketplace for collectors worldwide. Our user-friendly interface and secure backend infrastructure ensure a smooth browsing and purchasing experience, with a diverse range of coins available for sale, including rare and collectible pieces from various and different eras.',
+        description: 'Cointology is a full-stack e-commerce platform dedicated to the sales of coins, offering a seamless marketplace for collectors worldwide. Our user-friendly interface and secure backend infrastructure ensure a smooth browsing and purchasing experience, with a diverse range of coins available for sale, including rare and collectible pieces from various and different eras. Users can experience a full experience from adding products to a cart, checking out and recieving status updates (from purchase to delivery) on their order directly to their email address. Admins are able to update user order statuses which will automatically send emails to the user.',
         features: ['Admin dashboard to add/edit/delete products', 
         'Real-time data using Stripe webhooks to update product information such as stock after a successful order', 
         'Checkout functionality using StripeAPI', 
@@ -31,7 +31,6 @@ let projects = [
         productionWebsite: 'https://test-admin-wdmf.onrender.com',
         warning: 'As websites are hosted on render, they may take up to 60 seconds to load.',
         sampleImages: [
-            {image: '/images/cointology.png', text: 'Cointology Logo'},
             {image: '/images/cointology-1.png', text: 'Cointology Home Page'},
             {image: '/images/cointology-2.png', text: 'Cointology Product Page'},
             {image: '/images/cointology-3.png', text: 'Cointology Cart Page'},
@@ -49,7 +48,7 @@ let projects = [
         name: 'TimeTicker',
         image: '/images/timeticker-mockup.png',
         techStack: ['HTML', 'CSS', 'JavaScript', 'NodeJS', 'ExpressJS', 'MongoDB'],
-        description: 'EventTicker is a comprehensive full-stack application designed to empower users in managing and tracking various events seamlessly. Offering a user-friendly interface, it facilitates the creation, deletion, and countdown of events, enabling individuals to stay organized and informed about upcoming occasions. With a focus on user engagement, EventTicker incorporates robust user account functionality, allowing users to register, log in, and personalize their experience. Moreover, users can share their insights and experiences by writing reviews for events, fostering a vibrant community atmosphere. To enhance user engagement and ensure timely event notifications, EventTicker provides automatic email reminders, ensuring that users never miss important milestones. Whether planning personal celebrations, professional engagements, or community gatherings, EventTicker simplifies event management and amplifies user connectivity.',
+        description: 'TimeTicker is a comprehensive full-stack application designed to empower users in managing and tracking various events seamlessly. Offering a user-friendly interface, it facilitates the creation, deletion, and countdown of events, enabling individuals to stay organized and informed about upcoming occasions. With a focus on user engagement, TimeTicker incorporates robust user account functionality, allowing users to register, log in, and personalize their experience. Moreover, users can share their insights and experiences by writing reviews for events, fostering a vibrant community atmosphere. To enhance user engagement and ensure timely event notifications, TimeTicker provides automatic email reminders, ensuring that users never miss important milestones. Whether planning personal celebrations, professional engagements, or community gatherings, EventTicker simplifies event management and amplifies user connectivity.',
         features: ['Add / delete events', 
         'Ability to customise the colour of the event',
         'Days left displayed and updated daily',
@@ -60,12 +59,11 @@ let projects = [
         'Events automatically transition from future to past events when they have occured', 
         'Validation'],
         improvements: [
-            'Improve the design for the modals (adding / editing /deleting events'
+            'Improve the design for the modals (adding / editing /deleting events)'
         ],
         sourceCode: 'https://test-admin-wdmf.onrender.com',
         productionWebsite: 'https://test-admin-wdmf.onrender.com',
         sampleImages: [
-            {image: '/images/timeticker.png', text: 'TimeTicker Logo'},
             {image: '/images/timeticker-1.png', text: 'TimeTicker Home Page'},
             {image: '/images/timeticker-2.png', text: 'TimeTicker Review Page'},
             {image: '/images/timeticker-3.png', text: 'TimeTicker Login Page'},
@@ -77,10 +75,10 @@ let projects = [
     },
     {
         id: 3,
-        name: 'Job Portal',
+        name: 'TechTroop',
         image: '/images/jobportal-mockup.png',
         techStack: ['HTML', 'CSS', 'JavaScript', "NodeJS", "ExpressJS", "MongoDB"],
-        description: 'Job Portal is a full stack application that allows users to apply for jobs by submitting their details and CV. Thew website also possess a comprehensive dashboard to allow admins to monnitor applicants, directly view their CVs, view number of jobs, generate reports and more. Ability to book meetings is possible by implementing calendy to improve productivity.',
+        description: 'TechTroop is a full stack application that allows users to apply for jobs by submitting their details and CV. The website features a comprehensive admin dashboard where admins can monitor applicants, directly view their CVs, manage job postings, generate and download reports, and print them as needed. Additionally, the platform integrates Calendy to facilitate meeting bookings, enhancing productivity. Users benefit from a seamless application process, while employers can efficiently manage job listings and candidate information.',
         features: ['Submit job applications to jobs',
         'Recieve automatic emails when you apply for a job',
         'Refer a friend',
@@ -98,11 +96,15 @@ let projects = [
         'Animations throughout (including loading / buttons and more)',
         'FAQ section'
         ],
-        improvements: ['test'],
+        improvements: [
+            'Allow users to write reviews about their experience',
+            'Allow users to share jobs with social media integration',
+            'Explore more options to track applicants (e.g. successful applicants and rejected applicants / send automatic emails)'
+
+        ],
         sourceCode: 'https://test-admin-wdmf.onrender.com',
         productionWebsite: 'https://test-admin-wdmf.onrender.com',
         sampleImages: [
-            {image: '/images/techtroop.png', text: 'TechTroop Logo'},
             {image: '/images/techtroop-1.png', text: 'TechTroop Home Page'},
             {image: '/images/techtroop-2.png', text: 'TechTroop Calendy Integration'},
             {image: '/images/techtroop-3.png', text: 'TechTroop Job Page with Filters'},
