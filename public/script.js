@@ -100,6 +100,7 @@ let projects = [
         sourceCode: 'https://test-admin-wdmf.onrender.com',
         productionWebsite: 'https://test-admin-wdmf.onrender.com',
         sampleImages: [
+            {image: '/images/techtroop', text: 'TechTroop Logo'},
             {image: '/images/techtroop-1.png', text: 'TechTroop Home Page'},
             {image: '/images/techtroop-2.png', text: 'TechTroop Calendy Integration'},
             {image: '/images/techtroop-3.png', text: 'TechTroop Job Page with Filters'},
