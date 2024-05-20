@@ -63,6 +63,7 @@ let projects = [
         sourceCode: 'https://test-admin-wdmf.onrender.com',
         productionWebsite: 'https://test-admin-wdmf.onrender.com',
         sampleImages: [
+            {image: '/images/timeticker', text: 'TimeTicker Logo'},
             {image: '/images/timeticker-1.png', text: 'TimeTicker Home Page'},
             {image: '/images/timeticker-2.png', text: 'TimeTicker Review Page'},
             {image: '/images/timeticker-3.png', text: 'TimeTicker Login Page'},
