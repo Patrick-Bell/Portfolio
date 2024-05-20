@@ -5,6 +5,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+:root{
+    --small-text: 0.75rem;
+    --medium-text: 1.25rem;
+    --large-text: 2rem;
+}
 /* nav bar */
 .navbar{
     display: flex;
@@ -43,6 +48,38 @@
 .nav-right li:hover::after {
     width: 100%;
 }
+
+
+
+
+.project-container-2 {
+    max-width: 90%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.project-header {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#project-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.project-section {
+    margin-bottom: 20px;
+}
+
 
 
 
@@ -96,23 +133,30 @@ a{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* swiper */
+.swiper{
+    position: relative;
+}
+.swiper img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    display: grid;
+    place-items: center;
+}
+.swiper-pagination {
+    position: absolute; /* Position the pagination absolutely */
+    bottom: 100px; /* Adjust the distance from the bottom */
+    left: 0; /* Align pagination to the left */
+    width: 100%; /* Make pagination full width */
+    text-align: center; /* Align pagination dots to the center */
+  }
+  
+  .slide-text{
+    margin-bottom: 10px;
+  }
+  
 
 
 
