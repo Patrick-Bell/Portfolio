@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
             initializeSwiper();
         }
     }
-
+ 
     sampleImages.forEach((img, index) => {
         const slide = document.createElement('div');
         slide.className = 'swiper-slide';

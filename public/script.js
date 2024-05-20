@@ -59,7 +59,9 @@ let projects = [
         'Automatic reminders when events are at 1 day remaining using nodemailer',
         'Events automatically transition from future to past events when they have occured', 
         'Validation'],
-        improvements: ['test'],
+        improvements: [
+            'Improve the design for the modals (adding / editing /deleting events'
+        ],
         sourceCode: 'https://test-admin-wdmf.onrender.com',
         productionWebsite: 'https://test-admin-wdmf.onrender.com',
         sampleImages: [
@@ -100,7 +102,7 @@ let projects = [
         sourceCode: 'https://test-admin-wdmf.onrender.com',
         productionWebsite: 'https://test-admin-wdmf.onrender.com',
         sampleImages: [
-            {image: '/images/techtroop', text: 'TechTroop Logo'},
+            {image: '/images/techtroop.png', text: 'TechTroop Logo'},
             {image: '/images/techtroop-1.png', text: 'TechTroop Home Page'},
             {image: '/images/techtroop-2.png', text: 'TechTroop Calendy Integration'},
             {image: '/images/techtroop-3.png', text: 'TechTroop Job Page with Filters'},
